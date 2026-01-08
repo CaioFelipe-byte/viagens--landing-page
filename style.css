@@ -1,1 +1,65 @@
 
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f4f4f4;
+}
+
+nav {
+  background: #333;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  text-decoration: none;
+  margin: 0 15px;
+  padding: 8px 12px;
+  transition: background 0.3s, color 0.3s;
+}
+
+nav a:hover {
+  background: #555;
+  color: #ffd700;
+  border-radius: 4px;
+}
+
+.banner {
+  background-image: url('vilarejo.jpg'); /* Substitua pela sua imagem */
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+}
+
+.banner h1 {
+  background: rgba(0,0,0,0.5);
+  padding: 20px;
+  border-radius: 8px;
+}
+
+.content {
+  padding: 40px;
+  background: white;
+  margin: 20px auto;
+  max-width: 800px;
+  border-radius: 8px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.2);
+}
+
+.content h2 {
+  color: #333;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #333;
+  color: white;
+}
+
