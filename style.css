@@ -27,7 +27,7 @@ nav a:hover {
 }
 
 .banner {
-  background-image: url('vilarejo.jpg'); /* Substitua pela sua imagem */
+  background-image: url('Colmar.jpg'); 
   background-size: cover;
   background-position: center;
   height: 400px;
@@ -35,6 +35,8 @@ nav a:hover {
   align-items: center;
   justify-content: center;
   color: white;
+  font-size: 2em; 
+  text-shadow: 1px 1px 4px black;
 }
 
 .banner h1 {
